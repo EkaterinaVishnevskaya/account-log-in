@@ -1,6 +1,5 @@
 import { Layout } from 'antd';
 import { Content, Footer, Header } from 'antd/lib/layout/layout';
-import React from 'react';
 import { ReactNode } from 'react';
 
 export interface ISimpleLayoutProps {
