@@ -9,5 +9,7 @@ export default function RegistrationForm (props: IRegistrationFormProps) {
     return(
         <Form>
             <InputWithIcon icon={''}></InputWithIcon>
+            <InputWithIcon icon={''}></InputWithIcon>
+            <InputWithIcon icon={''}></InputWithIcon>
         </Form>
 )}
