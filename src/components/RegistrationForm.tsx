@@ -1,13 +1,13 @@
 import { Form } from 'antd';
-import React from 'react';
-import { ReactNode } from 'react';
+import InputWithIcon from './InputWithIcon';
 
 export interface IRegistrationFormProps {
 }
 
 export default function RegistrationForm (props: IRegistrationFormProps) { 
-    const {} = props;
+    //const {} = props;
     return(
         <Form>
+            <InputWithIcon icon={''}></InputWithIcon>
         </Form>
 )}
