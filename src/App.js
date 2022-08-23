@@ -1,6 +1,7 @@
 import './App.css';
-import SimpleLayout from './layouts/SimpleLayout';
+import { SimpleLayout } from './layouts/SimpleLayout';
 import { Tabs, Typography} from 'antd';
+import { AntDesignOutlined } from '@ant-design/icons'
 import RegistrationForm from './components/RegistrationForm'
 
 const { TabPane } = Tabs;
@@ -10,7 +11,7 @@ const { Title } = Typography;
 function App() {
   const title = <div>
     <img ref={'../public/logo.png'}></img>
-    <Title className='header'>EQPC</Title>
+    <Title className={'header'}>EQPC</Title>
     <Text type="secondary">Каталог оборудования</Text>
   </div>;
   const footer = <Text type="secondary">EQPC ©2021</Text>;
