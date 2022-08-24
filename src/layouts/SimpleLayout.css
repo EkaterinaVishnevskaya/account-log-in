@@ -1,0 +1,30 @@
+.header {
+    background-color: white;
+    top: 132px;
+}
+
+.title {
+    position: relative;
+    height: 42px;
+    left: 39.72%;
+    right: 0%;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 38px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+}
+
+.content {
+    top: 220;
+}
+
+.footer {
+    bottom: 27;
+}

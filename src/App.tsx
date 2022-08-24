@@ -1,7 +1,8 @@
 import './App.css';
 import SimpleLayout from './layouts/SimpleLayout';
-import { Tabs, Typography, Button} from 'antd';
+import { Tabs, Typography, Button, Image} from 'antd';
 import RegistrationForm from './components/RegistrationForm'
+import { useRef } from 'react';
 
 const { TabPane } = Tabs;
 const { Text } = Typography;
@@ -9,13 +10,12 @@ const { Title } = Typography;
 
 function App() {
   const header = <div>
-    <img ref='../public/logo.png'></img>
-    <Title className='header'>EQPC</Title>
+    <h1 className='title'>EQPC</h1>
     <Text type="secondary">Каталог оборудования</Text>
   </div>;
   const footer = <div>
     <Text type="secondary">EQPC ©2021</Text>
-    <Button type="dashed" shape="circle">?</Button>;
+    <Button shape="circle">?</Button>
   </div> 
 
 
@@ -23,16 +23,12 @@ function App() {
     <div className="App">
       <SimpleLayout header={header} footer={footer}>
         <Tabs defaultActiveKey="2">
-          <TabPane tab="Tab 1" key="1">
-            Вход в систему
+          <TabPane tab="Вход в систему" key="1">
           </TabPane>
-          <TabPane tab="Tab 2" key="2">
-            Регистрация
+          <TabPane tab="Регистрация" key="2">
+            <RegistrationForm/>
           </TabPane>
         </Tabs> 
-        <RegistrationForm>
-
-        </RegistrationForm>
       </SimpleLayout>
     </div>
   );
