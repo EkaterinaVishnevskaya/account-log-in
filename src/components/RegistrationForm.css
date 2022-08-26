@@ -7,3 +7,11 @@
     min-width: 378px;
     height: 40px;
 }
+
+.button {
+    position: absolute;
+    width: 378px;
+    height: 46px;
+    left: 0px;
+    top: 263px;
+}

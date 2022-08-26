@@ -1,12 +1,11 @@
 import './App.css';
 import SimpleLayout from './layouts/SimpleLayout';
-import { Tabs, Typography, Button, Image} from 'antd';
+import { Tabs, Typography, Button} from 'antd';
 import RegistrationForm from './components/RegistrationForm'
-import { useRef } from 'react';
+import LoginForm from './components/LoginForm';
 
 const { TabPane } = Tabs;
 const { Text } = Typography;
-const { Title } = Typography;
 
 function App() {
   const header = <div>
@@ -24,6 +23,7 @@ function App() {
       <SimpleLayout header={header} footer={footer}>
         <Tabs defaultActiveKey="2">
           <TabPane tab="Вход в систему" key="1">
+            <LoginForm></LoginForm>
           </TabPane>
           <TabPane tab="Регистрация" key="2">
             <RegistrationForm/>
