@@ -11,11 +11,11 @@ const { Title } = Typography;
 function App() {
   const header = <div>
     <h1 className='title'>EQPC</h1>
-    <Text type="secondary">Каталог оборудования</Text>
+    <Text className='subtitle' type="secondary">Каталог оборудования</Text>
   </div>;
   const footer = <div>
-    <Text type="secondary">EQPC ©2021</Text>
-    <Button shape="circle">?</Button>
+    <Text className='footer-text' type="secondary">EQPC ©2021</Text>
+    <Button className='circle-button' shape="circle">?</Button>
   </div> 
 
 

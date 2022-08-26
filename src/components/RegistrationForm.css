@@ -1,0 +1,9 @@
+.form-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 12px;
+    
+    min-width: 378px;
+    height: 40px;
+}
