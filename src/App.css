@@ -17,40 +17,4 @@
   margin-right: auto;
 }
 
-.title {
-  height: 42px;
-  left: 40%;
-  right: 40%;
-
-  font-family: 'Abel';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 33px;
-  line-height: 38px;
-
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.005em;
-
-}
-
-.subtitle {
-  height: 16px;
-  position: relative;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-
-  display: flex;
-  align-items: center;
-
-  color: rgba(0, 0, 0, 0.45);
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
 
