@@ -2,6 +2,7 @@
 
 .App {
   text-align: center;
+  background-color: #D7E4F3;
 }
 
 .circle-button {
@@ -16,5 +17,4 @@
   margin-left:auto;
   margin-right: auto;
 }
-
 
