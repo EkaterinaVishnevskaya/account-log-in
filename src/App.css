@@ -18,3 +18,26 @@
   margin-right: auto;
 }
 
+.subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.title {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 38px;
+  align-items: center;
+}
+
+.title-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}

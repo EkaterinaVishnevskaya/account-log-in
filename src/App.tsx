@@ -1,6 +1,6 @@
 import './App.css';
 import SimpleLayout from './layouts/SimpleLayout';
-import { Tabs, Typography, Button} from 'antd';
+import { Tabs, Typography, Button, Image } from 'antd';
 import RegistrationForm from './components/RegistrationForm'
 import LoginForm from './components/LoginForm';
 
@@ -9,7 +9,7 @@ const { Text } = Typography;
 
 function App() {
   const header = <div>
-    <h1 className='title'>EQPC</h1>
+    <div className='title-block'><img width={40} alt='antd' src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"/><h1 className='title'>EQPC</h1></div>
     <Text className='subtitle' type="secondary">Каталог оборудования</Text>
   </div>;
   const footer = <div>
@@ -21,9 +21,9 @@ function App() {
   return (
     <div className="App">
       <SimpleLayout header={header} footer={footer}>
-        <Tabs defaultActiveKey="2">
+        <Tabs defaultActiveKey="1">
           <TabPane tab="Вход в систему" key="1">
-            <LoginForm></LoginForm>
+            <LoginForm/>
           </TabPane>
           <TabPane tab="Регистрация" key="2">
             <RegistrationForm/>

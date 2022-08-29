@@ -1,7 +1,13 @@
-.forgot {
-    display: inline;
-}
-
 .line {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
 }
